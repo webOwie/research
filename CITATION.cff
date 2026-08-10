@@ -1,0 +1,19 @@
+cff-version: 1.2.0
+message: "If you use webOwie Research or associated software, please cite it using the metadata below."
+title: "webOwie Research"
+type: software
+authors:
+  - family-names: "Puchalla"
+    given-names: "David"
+    orcid: "https://orcid.org/0009-0002-0223-0929"
+url: "https://research.webowie.com"
+repository-code: "https://github.com/webOwie/research"
+license: "AGPL-3.0-only"
+keywords:
+  - OSINT
+  - artificial intelligence
+  - local AI
+  - cybersecurity
+  - automation
+  - research infrastructure
+  - systems engineering
