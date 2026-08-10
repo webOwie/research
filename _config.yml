@@ -1,0 +1,8 @@
+title: webOwie Research
+description: Open Research, Intelligence Infrastructure and Applied Systems Engineering
+url: https://research.webowie.com
+baseurl: ""
+markdown: kramdown
+exclude:
+  - docs/superpowers
+  - LICENSE
