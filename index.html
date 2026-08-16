@@ -4,7 +4,7 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>webOwie Research | Open Research & Systems Engineering</title>
-  <meta name="description" content="webOwie Research is the central research hub for local-first AI, OSINT, cybersecurity, research automation, secure infrastructure and systems architecture.">
+  <meta name="description" content="webOwie Research is the central research hub for local-first AI, OSINT, SOCMINT, marketing intelligence, cybersecurity, research automation, secure infrastructure and systems architecture.">
   <link rel="canonical" href="https://research.webowie.com/">
   <meta property="og:type" content="website">
   <meta property="og:title" content="webOwie Research">
@@ -14,6 +14,33 @@
   <meta property="og:image" content="https://research.webowie.com/assets/images/david-puchalla-research-portrait.png">
   <meta name="theme-color" content="#050708">
   <link rel="stylesheet" href="/assets/css/site.css">
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "Organization",
+        "@id": "https://research.webowie.com/#organization",
+        "name": "webOwie Research",
+        "url": "https://research.webowie.com/",
+        "description": "Researcher-led independent research initiative focused on intelligence systems, AI-assisted research and digital information analysis."
+      },
+      {
+        "@type": "Person",
+        "@id": "https://research.webowie.com/people/david-puchalla/#person",
+        "name": "David Puchalla",
+        "jobTitle": "Independent Researcher · System Architect",
+        "url": "https://research.webowie.com/people/david-puchalla/",
+        "affiliation": {"@id": "https://research.webowie.com/#organization"},
+        "sameAs": [
+          "https://orcid.org/0009-0002-0223-0929",
+          "https://researchid.co/rid166406",
+          "https://research.webowie.com/#identity"
+        ]
+      }
+    ]
+  }
+  </script>
 </head>
 <body>
   <header class="site-header">
@@ -34,7 +61,7 @@
       <div class="container">
         <div class="eyebrow">Open Research · Intelligence Infrastructure</div>
         <h1>web<span>Owie</span> Research</h1>
-        <p class="hero-copy">Open Research, Intelligence Infrastructure and Applied Systems Engineering. We document local-first AI, OSINT, cybersecurity, automation and secure infrastructure with an emphasis on traceability, reproducibility and operator control.</p>
+        <p class="hero-copy">Open Research, Intelligence Infrastructure and Applied Systems Engineering. We document local-first AI, OSINT, SOCMINT, marketing intelligence, cybersecurity, automation and secure infrastructure with an emphasis on traceability, reproducibility and operator control.</p>
         <div class="hero-actions">
           <a class="button primary" href="#projects">Explore active R&amp;D</a>
           <a class="button" href="https://github.com/webOwie/research">Repository</a>
@@ -47,35 +74,36 @@
       <div class="container">
         <div class="section-heading">
           <h2>Research identity</h2>
-          <p>Persistent identifiers and canonical webOwie resolver URLs.</p>
+          <p>Public researcher identity, affiliation and persistent verification records.</p>
         </div>
         <div class="identity">
           <article class="card researcher-card">
             <img class="researcher-photo" src="/assets/images/david-puchalla-research-portrait.png" alt="Portrait of David Puchalla" width="240" height="240" loading="eager" decoding="async">
             <div class="researcher-copy">
-              <div class="meta">Primary researcher</div>
+              <div class="meta">Primary researcher · webOwie Research</div>
               <h3>David Puchalla</h3>
-              <p>System Architect · Researcher · OSINT / Cybersecurity</p>
-              <p>The research portal separates personal researcher identity from the organizational identity of webOwie and links persistent external identifiers without replacing them.</p>
-              <a href="/people/david-puchalla/">Researcher profile →</a>
+              <p><strong>Independent Researcher · System Architect</strong></p>
+              <p>David Puchalla conducts independent research within webOwie Research, a researcher-led independent research initiative focused on intelligence systems, AI-assisted research and digital information analysis.</p>
+              <p><strong>Research focus:</strong> OSINT · SOCMINT · Marketing Intelligence · AI-assisted Research · Intelligence Orchestration · Human-AI Teaming · Digital Risk &amp; Information Integrity · Cybersecurity · Local-first AI · Research Automation · Secure Infrastructure · Systems Architecture.</p>
+              <a href="/people/david-puchalla/">Detailed researcher profile →</a>
             </div>
           </article>
           <div class="identity-links">
-            <a class="identity-link" href="https://orcid.webowie.com">
+            <a class="identity-link" href="https://orcid.org/0009-0002-0223-0929">
               <strong>ORCID</strong>
               <span>0009-0002-0223-0929</span>
             </a>
-            <a class="identity-link" href="https://researchid.webowie.com">
+            <a class="identity-link" href="https://researchid.co/rid166406">
               <strong>ResearchID</strong>
               <span>rid166406</span>
+            </a>
+            <a class="identity-link" href="https://doi.org/10.5281/zenodo.21967847">
+              <strong>Preprint v1.0 · DOI reserved</strong>
+              <span>Von OSINT zu Marketing Intelligence · 10.5281/zenodo.21967847</span>
             </a>
             <a class="identity-link" href="https://github.webowie.com">
               <strong>GitHub</strong>
               <span>webOwie organization</span>
-            </a>
-            <a class="identity-link" href="https://linkedin.webowie.com">
-              <strong>LinkedIn</strong>
-              <span>webOwie company page</span>
             </a>
           </div>
         </div>
@@ -86,15 +114,15 @@
       <div class="container">
         <div class="section-heading">
           <h2>Research areas</h2>
-          <p>Six top-level areas keep the taxonomy useful instead of turning it into a buzzword landfill.</p>
+          <p>Current research themes grouped by function rather than by tool.</p>
         </div>
         <div class="grid three">
-          <article class="card"><div class="meta">01</div><h3>Local-first Artificial Intelligence</h3><p>Locally operated models, model routing, agent architectures and privacy-aware inference under operator control.</p></article>
-          <article class="card"><div class="meta">02</div><h3>OSINT &amp; Information Intelligence</h3><p>Structured collection, verification, analysis and interpretation of publicly available information.</p></article>
-          <article class="card"><div class="meta">03</div><h3>Cybersecurity &amp; Digital Resilience</h3><p>Defensive architecture, secure deployment, resilience and security automation.</p></article>
-          <article class="card"><div class="meta">04</div><h3>Research Automation</h3><p>Reproducible workflows for acquisition, validation, analysis and technical documentation.</p></article>
-          <article class="card"><div class="meta">05</div><h3>Secure Infrastructure</h3><p>Virtualization, private networking, DNS, certificates, segmentation and controlled infrastructure operations.</p></article>
-          <article class="card"><div class="meta">06</div><h3>Systems Architecture</h3><p>Modular systems with explicit interfaces, interoperability, observability and operator control.</p></article>
+          <article class="card"><div class="meta">01</div><h3>Open &amp; Social Intelligence</h3><p>OSINT, SOCMINT, source validation, provenance, entity context, social signals and evidence-oriented information analysis.</p></article>
+          <article class="card"><div class="meta">02</div><h3>Marketing &amp; Decision Intelligence</h3><p>Marketing Intelligence, Intelligence-to-Content, decision support, timing, feedback learning and measurable market communication.</p></article>
+          <article class="card"><div class="meta">03</div><h3>AI-assisted Research</h3><p>Human-AI teaming, intelligence orchestration, agent architectures, model routing and reproducible research automation.</p></article>
+          <article class="card"><div class="meta">04</div><h3>Cybersecurity &amp; Digital Risk</h3><p>Digital Risk &amp; Information Integrity, defensive architecture, resilience, evidence handling and security automation.</p></article>
+          <article class="card"><div class="meta">05</div><h3>Local-first AI &amp; Infrastructure</h3><p>Locally operated models, secure infrastructure, private networking, virtualization and privacy-aware inference under operator control.</p></article>
+          <article class="card"><div class="meta">06</div><h3>Systems Architecture</h3><p>Modular systems with explicit interfaces, orchestration boundaries, interoperability, observability and operator control.</p></article>
         </div>
       </div>
     </section>
@@ -103,13 +131,13 @@
       <div class="container">
         <div class="section-heading">
           <h2>Current research &amp; development</h2>
-          <p>Active R&amp;D is labeled as such. Unfinished work is not quietly promoted into a “publication”.</p>
+          <p>Active R&amp;D is labeled as such. Unfinished work is not quietly promoted into a publication.</p>
         </div>
         <div class="grid two">
+          <article class="card"><div class="meta">Active R&amp;D</div><h3>webOwie Intelligence-to-Content</h3><p>Research on an adaptive loop connecting acquisition, evidence, intelligence, decisioning, generation, activation and feedback under explicit governance boundaries.</p><a href="/publications/">Research output →</a></article>
+          <article class="card"><div class="meta">Active R&amp;D</div><h3>OSINT Research Stack / DIBA</h3><p>A modular research environment for discovery, collection, provenance, source quality, validation, analysis and evidence-oriented workflows.</p><a href="/projects/osint-research-stack">Project record →</a></article>
           <article class="card"><div class="meta">Active R&amp;D</div><h3>webOwie Infrastructure Client</h3><p>A local operator-facing client for infrastructure, intelligence workflows and technical administration.</p><a href="/projects/infrastructure-client">Project record →</a></article>
-          <article class="card"><div class="meta">Active R&amp;D</div><h3>Proxmox Infrastructure Management</h3><p>Automation concepts for deployment, networking, DNS, certificates and security-aware Proxmox operations.</p><a href="/projects/proxmox-management">Project record →</a></article>
-          <article class="card"><div class="meta">Active R&amp;D</div><h3>OSINT Research Stack</h3><p>A modular research environment for search, collection, validation, analysis and evidence-oriented workflows.</p><a href="/projects/osint-research-stack">Project record →</a></article>
-          <article class="card"><div class="meta">Active R&amp;D</div><h3>Local AI Infrastructure</h3><p>Local inference, model routing and agent infrastructure designed around privacy, control and replaceable components.</p><a href="/projects/local-ai-infrastructure">Project record →</a></article>
+          <article class="card"><div class="meta">Active R&amp;D</div><h3>Proxmox &amp; Local AI Infrastructure</h3><p>Automation concepts for local inference, deployment, networking, DNS, certificates and security-aware infrastructure operations.</p><a href="/projects/proxmox-management">Project record →</a></article>
         </div>
       </div>
     </section>
@@ -121,7 +149,7 @@
           <p>Structured indexes with provenance and metadata requirements.</p>
         </div>
         <div class="output-list">
-          <a href="/publications/"><span>Publications</span><small>Papers, technical reports and persistent records</small></a>
+          <a href="/publications/"><span>Publications</span><small>Preprints, papers, technical reports and persistent records</small></a>
           <a href="/software/"><span>Software</span><small>Research software and reproducible tooling</small></a>
           <a href="/datasets/"><span>Datasets</span><small>Documented datasets with provenance and licensing</small></a>
           <a href="/methods/"><span>Methods</span><small>Repeatable technical and research procedures</small></a>
@@ -138,9 +166,9 @@
           <p>Research and technical development should remain traceable, auditable, privacy-aware, modular and controllable by the operator.</p>
         </article>
         <article class="card">
-          <div class="meta">Citation &amp; source</div>
-          <h3>Machine-readable identity</h3>
-          <p>The repository publishes CFF citation metadata and keeps source, documentation and research records in the open where appropriate.</p>
+          <div class="meta">Affiliation &amp; source integrity</div>
+          <h3>Verifiable research identity</h3>
+          <p>This portal documents only affiliations, identifiers, research outputs and qualifications that can be represented by a source record or a webOwie-controlled organizational record. It does not claim academic, governmental or other institutional affiliations not independently supported by evidence.</p>
           <p><a href="/CITATION.cff">CITATION.cff</a> · <a href="https://github.com/webOwie/research">Source repository</a></p>
         </article>
       </div>
@@ -149,7 +177,7 @@
 
   <footer class="site-footer">
     <div class="container footer-row">
-      <div><strong>webOwie Research</strong><br>Local-first Intelligence Infrastructure for Research, OSINT, Automation and Secure Systems.</div>
+      <div><strong>webOwie Research</strong><br>Researcher-led independent research initiative for Intelligence Systems, AI-assisted Research and Applied Systems Engineering.</div>
       <div><a href="https://webowie.com">webowie.com</a> · <a href="https://github.webowie.com">GitHub</a> · <a href="https://linkedin.webowie.com">LinkedIn</a></div>
     </div>
   </footer>
