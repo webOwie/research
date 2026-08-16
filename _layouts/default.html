@@ -5,7 +5,23 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>{{ page.title | default: site.title }} | webOwie Research</title>
   <meta name="description" content="{{ page.description | default: site.description | escape }}">
+  <meta name="author" content="David Puchalla">
+  <meta name="robots" content="index,follow,max-image-preview:large,max-snippet:-1,max-video-preview:-1">
   <link rel="canonical" href="{{ page.url | absolute_url }}">
+  <link rel="sitemap" type="application/xml" title="Sitemap" href="https://research.webowie.com/sitemap.xml">
+
+  <meta property="og:type" content="website">
+  <meta property="og:site_name" content="webOwie Research">
+  <meta property="og:title" content="{{ page.title | default: site.title | escape }}">
+  <meta property="og:description" content="{{ page.description | default: site.description | escape }}">
+  <meta property="og:url" content="{{ page.url | absolute_url }}">
+  <meta property="og:image" content="https://research.webowie.com/assets/images/david-puchalla-research-portrait.png">
+
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="{{ page.title | default: site.title | escape }}">
+  <meta name="twitter:description" content="{{ page.description | default: site.description | escape }}">
+  <meta name="twitter:image" content="https://research.webowie.com/assets/images/david-puchalla-research-portrait.png">
+
   <meta name="theme-color" content="#050708">
   <link rel="stylesheet" href="/assets/css/site.css">
 </head>
