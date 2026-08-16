@@ -11,9 +11,12 @@ repository-code: "https://github.com/webOwie/research"
 license: "AGPL-3.0-only"
 keywords:
   - OSINT
-  - artificial intelligence
+  - SOCMINT
+  - marketing intelligence
+  - intelligence orchestration
+  - AI-assisted research
   - local AI
   - cybersecurity
-  - automation
+  - research automation
   - research infrastructure
   - systems engineering
