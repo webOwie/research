@@ -2,6 +2,9 @@ title: webOwie Research
 description: Open Research, Intelligence Infrastructure and Applied Systems Engineering
 url: https://research.webowie.com
 baseurl: ""
+lang: en
+author: David Puchalla
+timezone: Europe/Berlin
 markdown: kramdown
 exclude:
   - docs/superpowers
