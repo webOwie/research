@@ -19,7 +19,7 @@ A reviewer visiting `https://research.webowie.com/#identity` should be able to d
 3. that his declared research affiliation is webOwie Research;
 4. which research areas he works on;
 5. which persistent research identifiers belong to him;
-6. which current public research output is associated with him;
+6. which current research output or persistent record is associated with him;
 7. how to verify that output and his identifiers independently.
 
 The site must remain a research portal, not become a general personal CV or marketing landing page.
@@ -33,7 +33,7 @@ The site will keep personal researcher identity and organizational identity sepa
 - Name: David Puchalla
 - Role: Independent Researcher · System Architect
 - Research affiliation: webOwie Research
-- Research identity URL: `https://research.webowie.com/#identity`
+- Meta/CASD affiliation-verification URL: `https://research.webowie.com/#identity`
 - Detailed profile: `https://research.webowie.com/people/david-puchalla/`
 - ORCID: `0009-0002-0223-0929`
 - ResearchID: `rid166406`
@@ -83,7 +83,7 @@ The homepage should represent the current research focus with a concise set of t
 
 ### Current output card
 
-Add a visible research-output card for the current preprint:
+Add a visible research-output card for the current preprint record:
 
 **Title**
 `Von OSINT zu Marketing Intelligence: Entwurf und Forschungsagenda einer agentischen All-Source-Architektur für adaptive digitale Marktkommunikation am Beispiel webOwie/DIBA`
@@ -149,19 +149,22 @@ Descriptions must be neutral and research-oriented. `Silent Hunter` must be desc
 
 Add a section for selected, research-relevant qualifications. Credentials must be represented as credentials or continuing education, not as academic degrees.
 
-Initial verified/current entries:
+Current entries and verification policy:
 
 - AI Search Operating System, Semrush Academy, August 2026
   - verification URL: `https://static.semrush.com/academy/certificates/d9bd3fcaf2/david-puchalla_2.pdf`
 - AI Visibility, Semrush Academy, August 2026
   - verification URL: `https://static.semrush.com/academy/certificates/2bd0cd75e1/david-puchalla_37.pdf`
 - Generative AI in Marketing, Semrush Academy, August 2026
-  - verification URL already documented in project records
+  - verification URL: `https://static.semrush.com/academy/certificates/6d19183135/david-puchalla_26.pdf`
 - SEO Grundlagen, Semrush Academy, August 2026
-  - verification URL already documented in project records
+  - verification URL: `https://static.semrush.com/academy/certificates/42da17dcba/david-puchalla_4.pdf`
 - IP-Führerschein – Markenrecht, PROvendis GmbH, August 2026
+  - list as a documented qualification unless a public certificate-verification URL is available
 - IP-Führerschein – Geschäftsgeheimnisgesetz (GeschGehG), PROvendis GmbH, August 2026
-- Digitaler Ersthelfer, BSI-related training record, only if a verifiable supporting record is available in the repository or can be linked from the site
+  - list as a documented qualification unless a public certificate-verification URL is available
+- Digitaler Ersthelfer
+  - include only when a verifiable supporting record is available in the repository or via a public source URL; do not infer an institutional affiliation from the training record
 
 Any credential without a verifiable public source may be listed only as `documented qualification` without a `Verify credential` link, or omitted until a source is added.
 
@@ -169,9 +172,9 @@ Any credential without a verifiable public source may be listed only as `documen
 
 Update `/publications/` and its repository index.
 
-The current placeholder `No publication record is indexed here yet` must be removed once a real public record exists.
+The current placeholder `No publication record is indexed here yet` must be removed only when a real public record exists. If the Zenodo record is still a preview/draft, replace the placeholder with a clearly labeled `Preprint in preparation / DOI reserved` record instead of calling it published.
 
-The first publication record must include:
+The first publication/preprint record must include:
 
 - full title
 - author
@@ -182,8 +185,8 @@ The first publication record must include:
 - ORCID attribution
 - license
 - abstract or concise summary
-- canonical Zenodo URL
-- recommended citation
+- canonical Zenodo URL or preview-status note as applicable
+- recommended citation once public
 - related research concepts: OSINT, SOCMINT, Marketing Intelligence, DIBA, webOwie, Intelligence-to-Content
 
 The historical LinkedIn article `OSINT ist die neue BWL` may be referenced as a conceptual/historical research artifact, but not represented as a peer-reviewed publication.
@@ -195,7 +198,7 @@ Update the repository README to reflect:
 - Independent Researcher · System Architect
 - affiliation with webOwie Research
 - expanded research areas
-- publication index now containing a verifiable research output
+- current preprint/publication status
 - DOI link
 - ORCID and ResearchID
 
@@ -303,7 +306,7 @@ Before merge:
 1. verify all modified pages render through GitHub Pages/Jekyll;
 2. check internal links and anchors, especially `#identity`;
 3. verify ORCID, ResearchID and DOI links;
-4. verify the profile page works as the Meta/CASD organizational-affiliation evidence URL;
+4. verify `https://research.webowie.com/#identity` is usable as the Meta/CASD organizational-affiliation evidence URL and visibly states the same affiliation entered in Research Tools Manager;
 5. inspect mobile layout for the expanded identity block;
 6. ensure the publication status matches the actual Zenodo state;
 7. confirm no unsupported institutional affiliation is introduced;
